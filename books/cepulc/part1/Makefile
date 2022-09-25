@@ -1,7 +1,7 @@
 .PHONY: all clean
 .DEFAULT: all
 
-CHAPTERS = chapter01
+CHAPTERS = chapter01 chapter02
 
 all:
 	@echo building chapters
