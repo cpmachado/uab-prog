@@ -19,8 +19,10 @@ main(void) {
     } else if (mes == 1 || mes == 3 || mes == 5 || mes == 7
             || mes == 8 || mes == 10 || mes == 12) {
         printf("31\n");
-    } else {
+    } else if (mes > 0 && mes < 13) {
         printf("30\n");
+    } else {
+        printf("Erro\n");
     }
 
     return 0;
