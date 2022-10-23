@@ -7,7 +7,7 @@ bissexto(int ano) {
 
 int
 dias_do_mes(int mes, int ano) {
-    switch(mes) {
+    switch (mes) {
         case 2:
             if (bissexto(ano)) {
                 return 29;

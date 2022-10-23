@@ -13,7 +13,7 @@ main(void) {
         printf("Opcao: ");
         scanf(" %d", &opcao);
 
-        switch(opcao) {
+        switch (opcao) {
             case 1:
                 printf("Opcao escolhida A\n");
                 break;
