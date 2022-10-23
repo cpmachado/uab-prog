@@ -1,4 +1,4 @@
-PARTS = part1
+PARTS = part1 part2
 
 all:
 	@echo building parts
