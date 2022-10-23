@@ -13,7 +13,7 @@ main(void) {
     while (a <= k) {
         b = 1;
         while (b <= k) {
-            if ( a + b <= k && a * b <= k) {
+            if (a + b <= k && a * b <= k) {
                 contagem++;
             }
             b++;
