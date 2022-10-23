@@ -13,6 +13,7 @@ Folder containing: "PARTE II – FUNÇÔES, VECTORES E RECURSÃO"
 | [chapter06] | folder | 6. MAIS CICLOS E CONDICIONAIS   |
 | [chapter07] | folder | 7. VECTORES                     |
 | [chapter08] | folder | 8. PROCEDIMENTOS                |
+| [chapter09] | folder | 9. RECURSÃO                     |
 
 
 [README.md]: ./README.md
@@ -20,3 +21,4 @@ Folder containing: "PARTE II – FUNÇÔES, VECTORES E RECURSÃO"
 [chapter06]: ./chapter06
 [chapter07]: ./chapter07
 [chapter08]: ./chapter08
+[chapter09]: ./chapter09
