@@ -19,7 +19,7 @@ main(void) {
             printf("Opcao escolhida B\n");
         } else if (opcao == 3) {
             printf("Opcao escolhida C\n");
-        } else {
+        } else if (opcao) {
             printf("Opcao invalida\n");
         }
     } while (opcao > 0);
