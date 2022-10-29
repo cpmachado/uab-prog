@@ -14,14 +14,11 @@ int
 main(void) {
     int x = 123, y = 321;
 
-    /* This is buggy, as it depends on execution stack.
-     * This is typical of amateurs, who don't understand the impact of side
-     * effects
-     * The example doesn't match tcc output in gcc with my setup
-     */
-    printf("Troca %d: x: %d y: %d\n", troca(&x, &y), x, y);
-    printf("Troca %d: x: %d y: %d\n", troca(&x, &y), x, y);
-    printf("Troca %d: x: %d y: %d\n", troca(&x, &y), x, y);
-
+    printf("Troca %d: ", troca(&x, &y));
+    printf("x: %d y: %d\n", x, y);
+    printf("Troca %d: ", troca(&x, &y));
+    printf("x: %d y: %d\n", x, y);
+    printf("Troca %d: ", troca(&x, &y));
+    printf("x: %d y: %d\n", x, y);
     return 0;
 }
