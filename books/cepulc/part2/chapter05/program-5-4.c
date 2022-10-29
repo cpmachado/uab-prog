@@ -2,7 +2,7 @@
 
 int
 bissexto(int ano) {
-    return (ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0;
+    return (!(ano % 4) && ano % 100) || !(ano % 400);
 }
 
 int
@@ -13,7 +13,7 @@ dias_do_mes(int mes, int ano) {
         }
         return 28;
     }
-    if (mes == 1 || mes == 3 || mes || mes == 5 || mes == 7 ||
+    if (mes == 1 || mes == 3 || mes == 5 || mes == 7 ||
         mes == 8 || mes == 10 || mes == 12) {
         return 31;
     }
