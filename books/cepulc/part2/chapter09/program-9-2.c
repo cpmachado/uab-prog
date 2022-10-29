@@ -10,7 +10,7 @@ hanoi(int de, int para, int medio, int discos) {
     };
 
     if (discos == 1) {
-        printf("Mover do(a) %s para %s\n", pilhas[de], pilhas[para]);
+        printf("Mover disco do(a) %s para %s\n", pilhas[de], pilhas[para]);
     }
     if (discos > 1) {
         hanoi(de, medio, para, discos - 1);
