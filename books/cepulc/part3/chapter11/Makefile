@@ -10,7 +10,8 @@ BIN = \
 	program-11-3\
 	program-11-4\
 	program-11-5\
-	program-11-6
+	program-11-6\
+	program-11-7
 
 include ../../util.mk
 
@@ -20,3 +21,4 @@ program-11-3: program-11-3.o
 program-11-4: program-11-4.o
 program-11-5: program-11-5.o
 program-11-6: program-11-6.o
+program-11-7: program-11-7.o
