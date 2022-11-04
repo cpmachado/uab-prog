@@ -93,10 +93,8 @@ main(void) {
 
     vector = vector_aleatorio(n, base);
 
-    if (vector.valor) {
-        mostra_vector(vector);
-        free(vector.valor);
-    }
+    mostra_vector(vector);
+    TVectorInt_libertar(&vector);
 
     return 0;
 }
