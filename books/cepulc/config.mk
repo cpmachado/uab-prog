@@ -8,4 +8,7 @@ CFLAGS  += -W -Wall -Werror -std=c99 -pedantic -Wno-unused-result ${INC}
 CPPFLAGS =\
 	-D_POSIX_C_SOURCE=200809L
 OUTPUT_OPTION = -MMD -MP
-LDFLAGS =
+LDFLAGS = -lm
+
+%: %.o
+	${CC} -o $@ $< ${LDFLAGS}
