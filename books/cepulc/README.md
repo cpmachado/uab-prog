@@ -28,8 +28,10 @@ Available online at <http://hdl.handle.net/10400.2/1779>
 | [README.md] | file   | README for the directory                     |
 | [part1]     | folder | PARTE I – VARIÁVEIS E ESTRUTURAS DE CONTROLO |
 | [part2]     | folder | PARTE II – FUNÇÔES, VECTORES E RECURSÃO      |
+| [part3]     | folder | PARTE III – MEMÓRIA, ESTRUTURAS E FICHEIROS  |
 
 
 [README.md]: ./README.md
 [part1]: ./part1
 [part2]: ./part2
+[part3]: ./part3
